@@ -284,6 +284,7 @@ p,
 ul {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 
 body {
@@ -293,18 +294,6 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--main-bgd);
   color: var(--main-text-color);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0px 15px;
-  position: relative;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list {
@@ -402,13 +391,9 @@ body {
   color: var(--main-text-color);
 }
 
-.team {
-  background-color: var(--add-bgd);
-  text-align: center;
-}
-
 .contact__link {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 44px;

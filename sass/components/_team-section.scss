@@ -1,6 +1,6 @@
 .team {
-    background-color: var(--add-bgd);
-    text-align: center;
+    // background-color: var(--add-bgd);
+    // text-align: center;
 }
 
 .team__grid {
@@ -52,6 +52,7 @@
 
 .contact__link {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
