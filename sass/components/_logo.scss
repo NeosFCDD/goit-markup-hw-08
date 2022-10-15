@@ -6,23 +6,28 @@
     line-height: 1.2;
     transition: $colorTransition;
 
-    &:hover {color: var(--blue-text-color);}
-    &:focus {color: var(--blue-text-color);}
+    &:hover {
+        color: var(--blue-text-color);
+    }
+
+    &:focus {
+        color: var(--blue-text-color);
+    }
 }
 
 .header-logo {
     @extend %logoPatern;
-    
-    padding-top: 24px;
-    padding-bottom: 25px;
+
+    // padding-top: 24px;
+    // padding-bottom: 25px;
     color: var(--main-text-color);
 }
 
 .footer-logo {
     @extend %logoPatern;
-    
-    display: block;
-    padding-top: 60px;
+
+    // display: block;
+    // padding-top: 60px;
     color: var(--white-text-color);
 }
 
