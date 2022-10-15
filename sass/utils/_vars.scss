@@ -1,0 +1,79 @@
+:root {
+    --main-text-color: #212121;
+    --blue-text-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --footer-contacts-text: rgba(255, 255, 255, 0.6);
+    --add-text-color: #757575;
+    --main-bgd: #FFFFFF;
+    --hero-footer-bgd: #2F303A;
+    --add-bgd: #F5F4FA;
+    --button-active-bgd: #2196F3;
+    --stroke-color: #EEEEEE;
+    --link-color: #AFB1B8;
+    --card-overlay-bgd: rgba(33, 150, 243, 0.9);
+    --main-timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+$colorTransition: color 250ms var(--main-timing-func);
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+
+    background-color: var(--main-bgd);
+    color: var(--main-text-color);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: relative;
+
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list {
+    list-style: none;
+}
+
+.hide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.second-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.social-networks-logo {
+    fill: currentColor;
+}
