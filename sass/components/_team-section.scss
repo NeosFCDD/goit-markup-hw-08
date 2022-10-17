@@ -31,7 +31,7 @@
 }
 
 .team-mate__contacts {
-    // display: flex;
+    display: flex;
     // flex-direction: row;
     // width: 206px;
     // height: 44px;
@@ -50,9 +50,15 @@
     // }
 }
 
+.team-mate__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .contact__link {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 
