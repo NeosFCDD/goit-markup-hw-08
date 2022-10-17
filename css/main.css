@@ -387,10 +387,71 @@ body {
   height: 100%;
   background-color: var(--main-bgd);
   padding: 48px 40px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 
+.nav-menu {
+  margin-bottom: 302px;
+}
+
+.nav-menu__item {
+  margin-bottom: 32px;
+}
+
+.nav-menu__link {
+  text-decoration: none;
+  font-size: 40px;
+  color: var(--main-text-color);
+  transition: color 250ms var(--main-timing-func);
+}
+.nav-menu__link:hover, .nav-menu__link:focus {
+  color: var(--blue-text-color);
+}
+
+.header-contacts__item {
+  margin-bottom: 32px;
+}
+.header-contacts__item:last-child {
+  margin-bottom: 64px;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 34px;
+  color: var(--blue-text-color);
+}
 .header-link__icon {
   display: none;
+}
+.header-link-mail {
+  font-size: 24px;
+  color: var(--add-text-color);
+}
+
+.header-social {
+  display: flex;
+}
+
+.header-social__item {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header-social__item:last-child {
+  border-right: 0;
+}
+.header-social__item:first-child {
+  padding-left: 0;
+}
+
+.header-social__link {
+  display: inline-block;
+  color: var(--blue-text-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.22;
 }
 
 .footer {
