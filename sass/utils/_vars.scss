@@ -27,6 +27,11 @@ ul {
     padding: 0;
 }
 
+button {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 
     font-family: 'Roboto', sans-serif;
@@ -45,7 +50,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 
-
     @media screen and (min-width:768px) {
         max-width: 768px;
     }
@@ -60,10 +64,16 @@ body {
     // position: relative;
 }
 
-.section {
-    // padding-top: 94px;
-    // padding-bottom: 94px;
+@media screen and (max-width:767px) {
+    .disabled {
+        display: none;
+    }
 }
+
+// .section {
+//     // padding-top: 94px;
+//     // padding-bottom: 94px;
+// }
 
 .list {
     list-style: none;
