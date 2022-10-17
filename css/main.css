@@ -371,13 +371,13 @@ body {
 
 .header {
   border-bottom: 1px solid var(--stroke-color);
-  height: 60px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
 }
 
 .menu-button {
