@@ -17,7 +17,18 @@
         <a class="header-logo" href="./index.html"
           ><span class="logo-item">Web</span>Studio</a
         >
-        <nav>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+            <use class="icon-x" href="./img/sprite.svg#icon-x"></use>
+            <use class="icon-menu" href="./img/sprite.svg#menu"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu" js-menu-container>
           <ul class="nav-menu list">
             <li class="nav-menu__item">
               <a
@@ -33,23 +44,39 @@
               <a class="nav-menu__link" href="">Контакти</a>
             </li>
           </ul>
+          <ul class="header-contacts list">
+            <li class="header-contacts__item">
+              <a class="header-link" href="mailto:info@devstudio.com">
+                <svg class="header-link__icon" width="16px" height="12px">
+                  <use href="./img/sprite.svg#icon-mail"></use></svg
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts__item">
+              <a class="header-link" href="tel:+380961111111">
+                <svg class="header-link__icon" width="10px" height="16px">
+                  <use href="./img/sprite.svg#icon-phone"></use></svg
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+          <ul class="header-social list">
+            <li class="header-social__item">
+              <a href="" aria-label="instagram" class="header-link"
+                >Instagram</a
+              >
+            </li>
+            <li class="header-social__item">
+              <a href="" aria-label="twitter" class="header-link">Twitter</a>
+            </li>
+            <li class="header-social__item">
+              <a href="" aria-label="facebook" class="studio-link">Facebook</a>
+            </li>
+            <li class="header-social__item">
+              <a href="" aria-label="linkedin" class="studio-link">Linkedin</a>
+            </li>
+          </ul>
         </nav>
-        <ul class="header-contacts list">
-          <li class="header-contacts__item">
-            <a class="header-link" href="mailto:info@devstudio.com">
-              <svg class="header-link__icon" width="16px" height="12px">
-                <use href="./img/sprite.svg#icon-mail"></use></svg
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contacts__item">
-            <a class="header-link" href="tel:+380961111111">
-              <svg class="header-link__icon" width="10px" height="16px">
-                <use href="./img/sprite.svg#icon-phone"></use></svg
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
       </div>
     </header>
 
@@ -57,7 +84,7 @@
       <section class="hero">
         <div class="container hero__box">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open class="hero__button" type="button">
+          <button class="hero__button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -121,15 +148,15 @@
           <h2 class="second-header">Чим ми займаємося</h2>
           <ul class="works__grid list">
             <li class="work-card">
-              <img src="./img/img1.jpg" alt="working" />
+              <img class="work-card__img" src="./img/img1.jpg" alt="working" />
               <p class="work-card__name">Десктопні додатки</p>
             </li>
             <li class="work-card">
-              <img src="./img/img2.jpg" alt="working" />
+              <img class="work-card__img" src="./img/img2.jpg" alt="working" />
               <p class="work-card__name">Мобільні додатки</p>
             </li>
             <li class="work-card">
-              <img src="./img/img3.jpg" alt="working" />
+              <img class="work-card__img" src="./img/img3.jpg" alt="working" />
               <p class="work-card__name">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -539,6 +566,6 @@
       </div>
     </div>
     <script src="./modal.js"></script>
-    <script src="./mobole-menu.js"></script>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>
