@@ -1,39 +1,48 @@
-// .skill-list {
-//     // display: flex;
-//     // padding-left: 0;
-// }
+.skill-list {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    // display: flex;
+    // padding-left: 0;
+}
 
-// .skill-card {
-//     // width: 270px;
-//     // margin-left: 30px;
-//     // padding: 0;
+.skill-card {
+    margin-bottom: 30px;
 
-//     // &:first-child {
-//     //     margin-left: 0px;
-//     // }
+    &:last-child {
+        margin-bottom: 0;
+    }
 
-//     // &__logo {
-//     //     margin-bottom: 30px;
-//     //     width: 270px;
-//     //     height: 120px;
-//     //     display: flex;
-//     //     justify-content: center;
-//     //     align-items: center;
-//     //     background-color: var(--add-bgd);
-//     // }
+    //     // width: 270px;
+    //     // margin-left: 30px;
+    //     // padding: 0;
 
-//     // &__item {
-//     //     font-weight: 700;
-//     //     margin-bottom: 10px;
-//     // }
+    //     // &:first-child {
+    //     //     margin-left: 0px;
+    //     // }
 
-//     // &__descr {
-//     //     line-height: 1.71;
-//     // }
+    &__logo {
+        margin-bottom: 30px;
+        max-width: 450px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--add-bgd);
+    }
 
-//     // &__img {
-//     //     display: block;
-//     //     align-items: center;
-//     //     justify-content: center;
-//     // }
-// }
+    &__item {
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        line-height: 1.71;
+    }
+
+    //     // &__img {
+    //     //     display: block;
+    //     //     align-items: center;
+    //     //     justify-content: center;
+    //     // }
+}
