@@ -7,27 +7,27 @@
     padding-bottom: 60px;
     text-align: center;
 
-    @media screen and (min-width:768px) {}
-
-    // display: flex;
-    // flex-direction: row;
+    @media screen and (min-width:1200px) {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .tablet-address {
-    @media screen and (min-width:768px) and (max-width:1199px) {
+    @media screen and (min-width:768px) {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 }
 
-// .footer__address {
-//     // width: 231px;
-// }
+.footer__address {
+    @media screen and (min-width:1200px) {
+        text-align: start;
+    }
+}
 
 .footer-data {
-    // padding-left: 0;
-    // padding-bottom: 60px;
     margin-top: 20px;
 }
 
@@ -64,14 +64,16 @@
     flex-direction: column;
     margin-top: 60px;
 
-    @media screen and (min-width:768px) and (max-width:1199px) {
+    @media screen and (min-width:768px) {
         margin-top: 0;
     }
 
-    // width: 206px;
-    // height: 80px;
-    // padding-top: 72px;
-    // margin-left: 70px;
+    @media screen and (min-width:768px) {
+        width: 206px;
+        height: 80px;
+        padding: 12px;
+        margin-left: 70px;
+    }
 }
 
 .footer-item {
@@ -79,6 +81,10 @@
     margin-bottom: 20px;
     color: var(--white-text-color);
     text-transform: uppercase;
+
+    @media screen and (min-width:1200px) {
+        text-align: start;
+    }
 }
 
 .studio-online {
@@ -117,8 +123,12 @@
 
 .subscribe-form {
     margin-top: 60px;
-    // padding-top: 72px;
-    // margin-left: 93px;
+
+    @media screen and (min-width:1200px) {
+        margin-top: 0;
+        margin-left: 93px;
+        padding-top: 12px;
+    }
 }
 
 .subscribe-form__box {
@@ -132,6 +142,11 @@
         max-width: 450px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    @media screen and (min-width:1200px) {
+        flex-direction: row;
+        width: 570px;
     }
 }
 
@@ -150,9 +165,16 @@
         outline: 0;
         border: 1px solid var(--blue-text-color);
     }
+
+    @media screen and (min-width:1200px) {
+        max-width: 358px;
+    }
 }
 
 .subscribe-form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -167,8 +189,11 @@
     height: 50px;
     margin-top: 20px;
     cursor: pointer;
-    // padding-left: 28px;
 
+    @media screen and (min-width:1200px) {
+        margin-top: 0;
+        margin-left: 28px;
+    }
 }
 
 .subscribe-form__icon {

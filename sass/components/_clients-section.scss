@@ -2,19 +2,17 @@
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
+
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .clients {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    padding-top: 30px;
-
-    // flex-direction: row;
-    // align-items: center;
-    // justify-content: center;
-    // padding: 0;
-    // padding-top: 50px;
 }
 
 .clients__card {
@@ -25,11 +23,9 @@
         flex-basis: calc((100% - 90px) / 3);
     }
 
-    // margin-right: 30px;
-
-    // &:last-child {
-    //     margin-right: 0;
-    // }
+    @media screen and (min-width:1200px) {
+        flex-basis: calc((100% - 180px) / 6);
+    }
 }
 
 .clients__link {

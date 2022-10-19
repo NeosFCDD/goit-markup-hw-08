@@ -71,10 +71,6 @@ body {
     }
 }
 
-// .section {
-//     // padding-top: 94px;
-//     // padding-bottom: 94px;
-// }
 
 .list {
     list-style: none;
@@ -99,6 +95,10 @@ body {
     font-size: 36px;
     line-height: 1.17;
     margin-bottom: 30px;
+
+    @media screen and (min-width:1200px) {
+        margin-bottom: 50px;
+    }
 }
 
 .social-networks-logo {

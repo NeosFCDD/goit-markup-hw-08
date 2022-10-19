@@ -1,6 +1,11 @@
 .skills {
     padding-top: 60px;
     padding-bottom: 60px;
+
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .skill-list {
@@ -10,9 +15,6 @@
         flex-wrap: wrap;
         margin: -15px;
     }
-
-    // display: flex;
-    // padding-left: 0;
 }
 
 .skill-card {
@@ -21,13 +23,10 @@
         margin: 15px;
     }
 
-    //     // width: 270px;
-    //     // margin-left: 30px;
-    //     // padding: 0;
-
-    //     // &:first-child {
-    //     //     margin-left: 0px;
-    //     // }
+    @media screen and (min-width:1200px) {
+        flex-basis: calc((100% - 120px) / 4);
+        margin: 15px;
+    }
 
     &__logo {
         margin-bottom: 30px;
@@ -43,15 +42,13 @@
         text-align: center;
         font-weight: 700;
         margin-bottom: 10px;
+
+        @media screen and (min-width:768px) {
+            text-align: start;
+        }
     }
 
     &__descr {
         line-height: 1.71;
     }
-
-    //     // &__img {
-    //     //     display: block;
-    //     //     align-items: center;
-    //     //     justify-content: center;
-    //     // }
 }
