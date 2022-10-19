@@ -13,6 +13,11 @@
     &:focus {
         color: var(--blue-text-color);
     }
+
+    @media screen and (min-width:768px) {
+        font-size: 24px;
+    }
+
 }
 
 .header-logo {
@@ -21,6 +26,11 @@
     padding-top: 16px;
     padding-bottom: 16px;
     color: var(--main-text-color);
+
+    @media screen and (min-width:768px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
 }
 
 .footer-logo {

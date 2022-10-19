@@ -7,8 +7,9 @@
 .clients {
     display: flex;
     flex-wrap: wrap;
-    margin: -30px;
+    margin: -15px;
     padding-top: 30px;
+
     // flex-direction: row;
     // align-items: center;
     // justify-content: center;
@@ -19,6 +20,11 @@
 .clients__card {
     flex-basis: calc((100% - 60px) / 2);
     margin: 15px;
+
+    @media screen and (min-width:768px) {
+        flex-basis: calc((100% - 90px) / 3);
+    }
+
     // margin-right: 30px;
 
     // &:last-child {
@@ -30,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // flex-basis: 50%;
     height: 92px;
     color: var(--link-color);
     border: 1px solid var(--link-color);

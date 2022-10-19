@@ -1,15 +1,24 @@
-.skill-list {
+.skills {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.skill-list {
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+
     // display: flex;
     // padding-left: 0;
 }
 
 .skill-card {
-    margin-bottom: 30px;
-
-    &:last-child {
-        margin-bottom: 0;
+    @media screen and (min-width:768px) {
+        flex-basis: calc((100% - 60px) / 2);
+        margin: 15px;
     }
 
     //     // width: 270px;
