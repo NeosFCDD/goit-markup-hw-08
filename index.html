@@ -184,19 +184,49 @@
             </li>
           </ul>
         </div>
+      </section>
+
+      <section class="section">
         <div class="works-box container">
           <h2 class="second-header">Чим ми займаємося</h2>
           <ul class="works__grid list">
             <li class="work-card">
-              <img class="work-card__img" src="./img/img1.jpg" alt="working" />
+              <img
+                srcset="
+                  ./img/works/desc-app-370.jpg 370w,
+                  ./img/works/desc-app-740.jpg 740w
+                "
+                sizes="370px, 100vw"
+                class="work-card__img"
+                src="./img/works/desc-app-370.jpg"
+                alt="working"
+              />
               <p class="work-card__name">Десктопні додатки</p>
             </li>
             <li class="work-card">
-              <img class="work-card__img" src="./img/img2.jpg" alt="working" />
+              <img
+                srcset="
+                  ./img/works/mob-app-370.jpg 370w,
+                  ./img/works/mob-app-740.jpg 740w
+                "
+                sizes="370px, 100vw"
+                class="work-card__img"
+                src="./img/works/mob-app-370.jpg"
+                alt="working"
+              />
               <p class="work-card__name">Мобільні додатки</p>
             </li>
             <li class="work-card">
-              <img class="work-card__img" src="./img/img3.jpg" alt="working" />
+              <img
+                srcset="
+                  ./img/works/design-370.jpg 370w,
+                  ./img/works/design-740.jpg 740w
+                "
+                sizes="370px, 100vw"
+                class="work-card__img"
+                src="./img/works/design-370.jpg"
+                alt="working"
+              />
               <p class="work-card__name">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -210,7 +240,16 @@
             <li class="team-mate">
               <img
                 class="team-mate__img"
-                src="./img/product-designer.jpg"
+                srcset="
+                  ./img/team/product-designer/product-desc-270.jpg 270w,
+                  ./img/team/product-designer/product-tab-354.jpg  354w,
+                  ./img/team/product-designer/product-mob-450.jpg  450w,
+                  ./img/team/product-designer/product-desc-540.jpg 540w,
+                  ./img/team/product-designer/product-tab-708.jpg  708w,
+                  ./img/team/product-designer/product-mob-900.jpg  900w
+                "
+                sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                src="./img/team/product-designer/product-mob-450.jpg"
                 alt="product-designer"
               />
               <h3 class="team-mate__name">Ігор Дем'яненко</h3>
@@ -261,7 +300,16 @@
             <li class="team-mate">
               <img
                 class="team-mate__img"
-                src="./img/frontend.jpg"
+                srcset="
+                  ./img/team/frontend/frontend-desc-270.jpg 270w,
+                  ./img/team/frontend/frontend-tab-354.jpg  354w,
+                  ./img/team/frontend/frontend-mob-450.jpg  450w,
+                  ./img/team/frontend/frontend-desc-540.jpg 540w,
+                  ./img/team/frontend/frontend-tab-708.jpg  708w,
+                  ./img/team/frontend/frontend-mob-900.jpg  900w
+                "
+                sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                src="./img/team/frontend/frontend-mob-450.jpg"
                 alt="frontend developer"
               />
               <h3 class="team-mate__name">Ольга Рєпіна</h3>
@@ -312,7 +360,16 @@
             <li class="team-mate">
               <img
                 class="team-mate__img"
-                src="./img/marketing.jpg"
+                srcset="
+                  ./img/team/market/market-desc-270.jpg 270w,
+                  ./img/team/market/market-tab-354.jpg  354w,
+                  ./img/team/market/market-mob-450.jpg  450w,
+                  ./img/team/market/market-desc-540.jpg 540w,
+                  ./img/team/market/market-tab-708.jpg  708w,
+                  ./img/team/market/market-mob-900.jpg  900w
+                "
+                sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                src="./img/team/market/market-mob-450.jpg"
                 alt="marketing"
               />
               <h3 class="team-mate__name">Микола Тарасов</h3>
@@ -363,7 +420,16 @@
             <li class="team-mate">
               <img
                 class="team-mate__img"
-                src="./img/ui.jpg"
+                srcset="
+                  ./img/team/ui/ui-desc-270.jpg 270w,
+                  ./img/team/ui/ui-tab-354.jpg  354w,
+                  ./img/team/ui/ui-mob-450.jpg  450w,
+                  ./img/team/ui/ui-desc-540.jpg 540w,
+                  ./img/team/ui/ui-tab-708.jpg  708w,
+                  ./img/team/ui/ui-mob-900.jpg  900w
+                "
+                sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw"
+                src="./img/team/ui/ui-mob-450.jpg"
                 alt="ui designer"
               />
               <h3 class="team-mate__name">Михайло Єрмаков</h3>
@@ -414,8 +480,9 @@
           </ul>
         </div>
       </section>
-      <section class="clients-box section">
-        <div class="container">
+
+      <section class="section">
+        <div class="clients-box container">
           <h2 class="second-header">Постійні клієнти</h2>
           <ul class="clients list">
             <li class="clients__card">

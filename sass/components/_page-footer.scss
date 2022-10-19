@@ -1,153 +1,152 @@
-// .footer {
-//     background-color: var(--hero-footer-bgd);
-// }
+.footer {
+    background-color: var(--hero-footer-bgd);
+}
 
-// .footer__box {
-//     // display: flex;
-//     // flex-direction: row;
-// }
+.footer__box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    // display: flex;
+    // flex-direction: row;
+}
 
 // .footer__address {
 //     // width: 231px;
 // }
 
-// .footer-data {
-//     // padding-left: 0;
-//     // padding-bottom: 60px;
-//     // margin-top: 20px;
-// }
+.footer-data {
+    // padding-left: 0;
+    // padding-bottom: 60px;
+    margin-top: 20px;
+}
 
-// .footer-data__address {
-//     // color: var(--white-text-color);
-//     // text-decoration: none;
-//     // font-style: normal;
+.footer-data__address {
+    color: var(--white-text-color);
+    text-decoration: none;
+    font-style: normal;
 
-//     // transition: color 250ms var(--main-timing-func);
+    transition: color 250ms var(--main-timing-func);
 
-//     // &:hover,
-//     // &:focus {
-//     //     color: var(--blue-text-color);
-//     // }
-// }
+    &:hover,
+    &:focus {
+        color: var(--blue-text-color);
+    }
+}
 
-// .footer-data__contact {
-//     // display: block;
-//     // margin-top: 9px;
-//     // color: var(--footer-contacts-text);
-//     // text-decoration: none;
-//     // font-style: normal;
+.footer-data__contact {
+    display: block;
+    margin-top: 9px;
+    color: var(--footer-contacts-text);
+    text-decoration: none;
+    font-style: normal;
 
-//     // transition: color 250ms var(--main-timing-func);
+    transition: color 250ms var(--main-timing-func);
 
-//     // &:hover,
-//     // &:focus {
-//     //     color: var(--blue-text-color);
-//     // }
-// }
+    &:hover,
+    &:focus {
+        color: var(--blue-text-color);
+    }
+}
 
-// .footer__links {
-//     // display: flex;
-//     // flex-direction: column;
-//     // width: 206px;
-//     // height: 80px;
-//     // padding-top: 72px;
-//     // margin-left: 70px;
-// }
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    // width: 206px;
+    // height: 80px;
+    // padding-top: 72px;
+    // margin-left: 70px;
+}
 
-// .footer-item {
-//     // font-weight: 700;
-//     // margin-bottom: 20px;
-//     // color: var(--white-text-color);
-//     // text-transform: uppercase;
-// }
+.footer-item {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--white-text-color);
+    text-transform: uppercase;
+}
 
-// .studio-online {
-//     // display: flex;
-//     // flex-direction: row;
-//     // padding: 0;
-// }
+.studio-online {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
 
-// .studio-box {
-//     // margin-right: 10px;
+.studio-box {
+    margin-right: 10px;
 
-//     // &:last-child {
-//     //     margin-right: 0;
-//     // }
-// }
+    &:last-child {
+        margin-right: 0;
+    }
+}
 
+.studio-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-text-color);
 
-// .studio-link {
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-//     // width: 44px;
-//     // height: 44px;
-//     // border-radius: 50%;
-//     // background-color: rgba(255, 255, 255, 0.1);
-//     // color: var(--white-text-color);
+    transition: background-color 250ms var(--main-timing-func);
 
-//     // transition: background-color 250ms var(--main-timing-func);
-
-//     // &:hover,
-//     // &:focus {
-//     //     background-color: var(--button-active-bgd);
-//     // }
-// }
-
-
+    &:hover,
+    &:focus {
+        background-color: var(--button-active-bgd);
+    }
+}
 
 
-// .subscribe-form {
-//     // padding-top: 72px;
-//     // margin-left: 93px;
-// }
+.subscribe-form {
+    margin-top: 60px;
+    // padding-top: 72px;
+    // margin-left: 93px;
+}
 
-// .subscribe-form__box {
-//     // display: flex;
-//     // align-items: center;
+.subscribe-form__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-// }
+.subscribe-form__input {
+    width: 100%;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--white-text-color);
+    transition: border 250ms var(--main-timing-func);
 
-// .subscribe-form__input {
-//     // width: 358px;
-//     // height: 50px;
-//     // margin-right: 12px;
-//     // padding-left: 16px;
-//     // border: 1px solid rgba(255, 255, 255, 0.3);
-//     // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-//     // border-radius: 4px;
-//     // background-color: transparent;
-//     // color: var(--white-text-color);
-//     // transition: border 250ms var(--main-timing-func);
+    &:focus {
+        outline: 0;
+        border: 1px solid var(--blue-text-color);
+    }
+}
 
-//     // &:focus {
-//     //     outline: 0;
-//     //     border: 1px solid var(--blue-text-color);
-//     // }
-// }
+.subscribe-form__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background: var(--button-active-bgd);
+    border: var(--button-active-bgd);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
-// .subscribe-form__button {
-//     // display: flex;
-//     // align-items: center;
-//     // text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    // padding-left: 28px;
 
-//     // font-weight: 700;
-//     // font-size: 16px;
-//     // line-height: 1.88;
-//     // letter-spacing: 0.06em;
-//     // color: var(--white-text-color);
-//     // background: var(--button-active-bgd);
-//     // border: var(--button-active-bgd);
-//     // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     // border-radius: 4px;
+}
 
-//     // width: 200px;
-//     // height: 50px;
-//     // padding-left: 28px;
-//     // cursor: pointer;
-
-// }
-
-// .subscribe-form__icon {
-//     // margin-left: 12px;
-// }
+.subscribe-form__icon {
+    margin-left: 12px;
+}
