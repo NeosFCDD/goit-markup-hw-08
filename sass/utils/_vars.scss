@@ -43,6 +43,10 @@ body {
     color: var(--main-text-color);
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 .container {
     max-width: 480px;
     margin-left: auto;
@@ -57,11 +61,6 @@ body {
     @media screen and (min-width:1200px) {
         max-width: 1200px;
     }
-
-    // width: 1200px;
-    // margin: 0 auto;
-    // padding: 0px 15px;
-    // position: relative;
 }
 
 
@@ -71,6 +70,16 @@ body {
     }
 }
 
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
 
 .list {
     list-style: none;

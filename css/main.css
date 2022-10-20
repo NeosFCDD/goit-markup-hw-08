@@ -301,6 +301,10 @@ body {
   color: var(--main-text-color);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   max-width: 480px;
   margin-left: auto;
@@ -324,6 +328,17 @@ body {
     display: none;
   }
 }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .list {
   list-style: none;
 }
@@ -398,10 +413,8 @@ body {
   color: var(--blue-text-color);
 }
 
-@media screen and (min-width: 1200px) {
-  .header {
-    border-bottom: 1px solid var(--stroke-color);
-  }
+.header {
+  border-bottom: 1px solid var(--stroke-color);
 }
 
 .nav {
@@ -915,17 +928,6 @@ body {
   color: var(--main-text-color);
 }
 
-.skills {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-@media screen and (min-width: 1200px) {
-  .skills {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .skill-list {
     display: flex;
@@ -1016,14 +1018,6 @@ body {
 
 .team {
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-@media screen and (min-width: 1200px) {
-  .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1109,15 +1103,7 @@ body {
 }
 
 .clients-box {
-  padding-top: 60px;
-  padding-bottom: 60px;
   text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .clients-box {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .clients {
@@ -1179,7 +1165,7 @@ body {
 .backdrop.is-hidden .modal {
   transform: scale(1.2);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .backdrop.is-hidden .modal {
     transform: translateX(-50%) scale(1.2);
   }
@@ -1199,7 +1185,7 @@ body {
   transform: scale(1);
   transition: transform 250ms var(--main-timing-func);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .modal {
     left: 50%;
     transform: translateX(-50%) scale(1);
@@ -1374,6 +1360,11 @@ body {
   justify-content: center;
   padding-left: 0;
   padding-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .filter-list {
+    flex-wrap: wrap;
+  }
 }
 
 .filter-item {

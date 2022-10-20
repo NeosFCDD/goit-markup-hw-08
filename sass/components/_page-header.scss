@@ -1,7 +1,5 @@
 .header {
-    @media screen and (min-width:1200px) {
-        border-bottom: 1px solid var(--stroke-color);
-    }
+    border-bottom: 1px solid var(--stroke-color);
 }
 
 .nav {
