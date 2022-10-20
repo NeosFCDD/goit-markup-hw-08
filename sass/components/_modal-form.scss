@@ -7,7 +7,6 @@
     padding: 93px 15px;
     background: rgba(0, 0, 0, 0.1);
     overflow-y: scroll;
-
 }
 
 .backdrop.is-hidden {
@@ -91,7 +90,6 @@
 
 .form-label {
     position: relative;
-    // margin-left: 41px;
     margin-bottom: 28px;
 }
 
@@ -104,9 +102,7 @@
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    margin: 0;
-    padding: 0;
-    // padding-left: 42px;
+    padding-left: 42px;
     transition: border 250ms var(--main-timing-func);
 
     &:focus {

@@ -78,6 +78,10 @@
     font-size: 34px;
     color: var(--blue-text-color);
 
+    @media screen and (max-width:368px) {
+        font-size: 32px;
+    }
+
     &--mail {
         font-size: 24px;
         color: var(--add-text-color);
@@ -91,6 +95,11 @@
     padding-left: 10px;
     padding-right: 10px;
 
+    @media screen and (max-width:459px) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     &:last-child {
         border-right: 0;
     }
@@ -99,6 +108,7 @@
         padding-left: 0;
     }
 
+
 }
 
 .mobile-social__link {
@@ -106,4 +116,8 @@
     font-size: 18px;
     line-height: 1.22;
     color: var(--blue-text-color);
+
+    @media screen and (max-width:459px) {
+        font-size: 14px;
+    }
 }
